@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: users
+        description: "Raw user data from JSONPlaceholder API"
+        columns:
+          - name: id
+            description: "User ID"
+          - name: name
+            description: "Full name"
+          - name: email
+            description: "Email address"
+          - name: username
+            description: "Username"
+          - name: phone
+            description: "Phone number"
+          - name: website
+            description: "Website"
