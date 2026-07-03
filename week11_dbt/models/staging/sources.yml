@@ -6,16 +6,5 @@ sources:
     tables:
       - name: users
         description: "Raw user data from JSONPlaceholder API"
-        columns:
-          - name: id
-            description: "User ID"
-          - name: name
-            description: "Full name"
-          - name: email
-            description: "Email address"
-          - name: username
-            description: "Username"
-          - name: phone
-            description: "Phone number"
-          - name: website
-            description: "Website"
+      - name: todos
+        description: "Raw todos data used as orders proxy"
